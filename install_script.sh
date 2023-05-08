@@ -300,7 +300,7 @@ install_caddy_tls() {
     read -r -p "请输入Caddy的端口(默认:80): " caddy_port
     [[ -z "${caddy_port}" ]] && caddy_port=80
     read -r -p "请输入Caddy的转发端口(默认:8863): " caddy_remote_port
-    [[ -z "${caddy_remote_port}" ]] && caddy_remote_port=8863
+    [[ -z "${caddy_remote_port}" ]] && caddy_remote_port=8443
 
     echo_content yellow "提示：请确认域名已经解析到本机 否则可能安装失败"
     while read -r -p "请输入你的域名(必填): " domain; do
