@@ -40,7 +40,7 @@ init_var() {
   CADDY_LOG="${CADDY_DATA}logs/"
   CADDY_CERT_DIR="${CERT_PATH}certificates/acme-v02.api.letsencrypt.org-directory/"
   caddy_port=80
-  caddy_remote_port=8863
+  caddy_remote_port=8443
   your_email=""
   ssl_option=1
   ssl_module_type=1
